@@ -67,31 +67,31 @@ main{
     color: #e605d3;
 }
 
-footer{
-    margin:5px ;
-    
+footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 50px 0 0 0;
+    padding: 40px;
 }
 
 .secao-1{
-    width: 500px;
+    width: 66%;
     margin-left: 50px;
     height: 100hv;
     padding: 10px;
 }
 
 .secao-2{
-    width: 40px;
+    width: 40%;
     margin-left:0px ;
     margin-bottom: 100px;
     padding: 15px;
     height: 100hv;
 }
 
-.secao-3{
-    width: 500px;
-    margin-left: 50px;
-    margin-top: 50px;
-}
+
 
 h2{
     margin-top: 20px;
@@ -157,7 +157,7 @@ img{
     width: 20%;
     border-radius: 100%;
 }
-.slideshowcontainer{
+.slideshow-container{
     max-width: 1000px;
     position:relative;
     margin: auto;
@@ -166,4 +166,16 @@ img{
 .campobox{
     width: 33%;
 }
+.texto{
+    columns: 3;
+    text-align: justify;
+}
 
+.img2{
+    width: 100%;
+
+}
+
+footer{
+    background-color: #85037a;
+}
